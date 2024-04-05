@@ -1,0 +1,21 @@
+{
+  "name": "coc",
+  "version": "1.0.0",
+  "description": "change of custody",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "cyberworrier",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.3.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.4"
+  }
+}
